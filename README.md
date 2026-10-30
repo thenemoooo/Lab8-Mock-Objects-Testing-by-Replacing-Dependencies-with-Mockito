@@ -98,7 +98,7 @@ A8-ийн гурван CSV мөр нэг метод дотор нэг бүлэг
 
 | Мутант | `CourseRegistrationService.java`-д хийсэн эвдрэл | Унасан тестүүд | Баримт файл |
 |---|---|---|---|
-| 1 | `if (!student.active()) return "ERROR_INACTIVE_STUDENT";` мөрийг комментлож идэвхгүй оюутны шалгалтыг устгасан | A3 `..._ERROR_INACTIVE_STUDENT...`, A8-ийн 2-р мөр (`[2] ... expected: <ERROR_INACTIVE_STUDENT> but was: <OK>`) — нийт 2 failure | `results/mvn-test-mutant-1.txt` |
+| 1 | `if (!student.active()) return "ERROR_INACTIVE_STUDENT";` мөрийг комментлож идэвхгүй оюутны шалгалтыг устгасан | A3 `..._ERROR_INACTIVE_STUDENT...` (`but was: <ERROR_NO_COURSE>`), A8-ийн 2-р мөр (`but was: <OK>`) — нийт 2 failure | `results/mvn-test-mutant-1.txt` |
 | 2 | `repository.saveRegistration(studentId, courseId);` дуудалтыг комментлосон | A1 `..._OKБуцаажИмэйлИлгэнэ`, A5 `..._Бүртгэл_OKХэвээр...` — `verify(saveRegistration)` хангагдаагүй, нийт 2 failure | `results/mvn-test-mutant-2.txt` |
 | 3 | `register()`-ийн эхний `if`-ээс `\|\| courseId == null` хэсгийг устгасан | A6 `register_nullОролтод_...` — `Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown` — 1 failure | `results/mvn-test-mutant-3.txt` |
 
