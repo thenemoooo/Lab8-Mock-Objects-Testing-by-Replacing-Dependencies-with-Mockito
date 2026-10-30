@@ -31,7 +31,7 @@ WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicA
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
-[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.420 s -- in mn.edu.must.sqat.CourseRegistrationServiceTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.413 s -- in mn.edu.must.sqat.CourseRegistrationServiceTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -40,6 +40,6 @@ OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader clas
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.185 s
-[INFO] Finished at: 2026-10-30T11:39:28+08:00
+[INFO] Total time:  1.188 s
+[INFO] Finished at: 2026-10-30T11:41:20+08:00
 [INFO] ------------------------------------------------------------------------
